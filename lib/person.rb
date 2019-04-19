@@ -3,4 +3,6 @@ class Person
   :height, :weight, :handed, :complexion, :t_shirt_size, 
   :wrist_size, :glove_size, :pant_length, :pant_width]
   attributes.each do |attribute|
+    attr_accessor + attribute
+  end
 end
